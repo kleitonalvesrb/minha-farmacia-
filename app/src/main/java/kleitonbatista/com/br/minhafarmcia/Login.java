@@ -7,7 +7,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class Login extends AppCompatActivity {
-
+    private int i = 0;
     private EditText login;
     private EditText senha;
     @Override
@@ -25,7 +25,7 @@ public class Login extends AppCompatActivity {
                 validaCampo(getSenha(),Constantes.VALIDACAO_CAMPO,1)){
             Toast.makeText(this,"Validado",Toast.LENGTH_LONG).show();
         }
-
+/*teste*/
     }
 
 
